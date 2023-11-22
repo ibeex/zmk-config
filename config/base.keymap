@@ -38,12 +38,12 @@
 //    ├───┼─────────────┼─────────────┼──────────────┼──────────────┼───────────────┼─────────────────────────────────┼─────────────────┼──────────────┼──────────────┼─────────────┼──────────────┼───┤
 //    │   │      Z      │      X      │      C       │      V       │       B       │                                 │       N         │      M       │ &comma_morph │ &dot_morph  │ &qmark_morph │   │
 //    ╰───┴─────────────┴─────────────┼──────────────┼──────────────┼───────────────┼─────────────────┬───────────────┼─────────────────┼──────────────┼──────────────┼─────────────┴──────────────┴───╯
-//                                    │              │ &tm LGUI ESC │ &lt LOWER TAB │ &lt ADJUST BSPC │ &tm RSHFT RET │ &lt RAISE SPACE │ &lt FUN DEL  │              │                                 
+//                                    │              │ &lt LGUI ESC │ &tm LOWER TAB │ &lt ADJUST BSPC │ &lt RSHFT RET │ &tm RAISE SPACE │ &lt FUN DEL  │              │                                 
 //                                    ╰──────────────┴──────────────┴───────────────┴─────────────────┴───────────────┴─────────────────┴──────────────┴──────────────╯                                 
   _LTX   &kp Q         &kp W         &hml MEH E     &kp R          &kp T                                              &kp Y            &kp U          &hmr MEH I     &kp O         &kp P           _RTX
   _LMX   &hml LGUI A   &hml LALT S   &hml LCTRL D   &hml LSHFT F   &kp G                                              &kp H            &hmr LSHFT J   &hmr LCTRL K   &hmr LALT L   &hmr RGUI SQT   _RMX
   _LBX   &kp Z         &kp X         &kp C          &kp V          &kp B                         _MBX                 &kp N            &kp M          &comma_morph   &dot_morph    &qmark_morph    _RBX
-                                     _LHX           &tm LGUI ESC   &lt LOWER TAB   &lt ADJUST BSPC   &tm RSHFT RET   &lt RAISE SPACE   &lt FUN DEL    _RHX                                             
+                                     _LHX           &lt LGUI ESC   &tm LOWER TAB   &lt ADJUST BSPC   &lt RSHFT RET   &tm RAISE SPACE   &lt FUN DEL    _RHX                                             
       >;
     };
 
