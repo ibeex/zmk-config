@@ -11,16 +11,16 @@ layers:
   - {t: I, h: MEH}
   - O
   - P
-  - {t: A, h: ⌘}
-  - {t: S, h: 🐧}
+  - {t: A, h: 🐧}
+  - {t: S, h: ⌥}
   - {t: D, h: ⌃}
   - {t: F, h: ⇧}
   - G
   - H
   - {t: J, h: ⇧}
   - {t: K, h: ⌃}
-  - {t: L, h: 🐧}
-  - {t: '''', h: ⌘}
+  - {t: L, h: ⌥}
+  - {t: '''', h: 🐧}
   - Z
   - X
   - C
@@ -31,11 +31,11 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: ⎋, h: ⌘}
-  - {t: ⇥, h: '1'}
+  - {t: ⎋, h: 🐧}
+  - {t: ⇥, h: Lower}
   - {t: ⌫, h: Adjust}
   - {t: ⏎, h: ⇧}
-  - {t: ⎵, h: '2'}
+  - {t: ⎵, h: Raise}
   - {t: ⌦, h: Fun}
   Lower:
   - ⌘Q
@@ -48,8 +48,8 @@ layers:
   - '{'
   - '}'
   - '%'
-  - ⌘
   - 🐧
+  - ⌥
   - ⌃
   - ⇧
   - {t: ' ', type: trans}
@@ -69,7 +69,7 @@ layers:
   - '>'
   - '~'
   - 🌍
-  - {t: ' ', type: trans}
+  - {type: held}
   - {t: ' ', type: trans}
   - _
   - '-'
@@ -94,7 +94,7 @@ layers:
   - ↓
   - ↑
   - →
-  - ⌘
+  - 🐧
   - {t: ' ', type: trans}
   - '1'
   - '2'
@@ -109,7 +109,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - {type: held}
   - {t: ' ', type: trans}
   Fun:
   - F12
@@ -130,8 +130,8 @@ layers:
   - {t: ' ', type: trans}
   - ⇧
   - ⌃
+  - ⌥
   - 🐧
-  - ⌘
   - F10
   - F1
   - F2
