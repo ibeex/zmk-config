@@ -260,7 +260,7 @@ parse_config:
     DOWN: "↓"
     KP_PLUS: "+"
     LCTRL: ⌃
-    LALT: ⌥
+    LALT: 🐧
     LGUI: ⌘
     LSHFT: ⇧
     RCTRL: ⌃
@@ -268,7 +268,7 @@ parse_config:
     LEFT_ALT: ⌥
     LEFT_GUI: ⌘
     LEFT_SHFT: ⇧
-    RALT: ⌥
+    RALT: 🐧
     RGUI: ⌘
     RSHFT: ⇧
     RIGHT_CONTROL: ⌃
