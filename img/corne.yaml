@@ -31,11 +31,11 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: ⇥, h: ⌘}
-  - {t: ⎋, h: Lower}
-  - {t: ⏎, h: Adjust}
-  - {t: ⎵, h: ⇧}
-  - {t: ⌫, h: Raise}
+  - {t: ⎋, h: ⌘}
+  - {t: ⇥, h: Lower}
+  - {t: ⌫, h: Adjust}
+  - {t: ⏎, h: ⇧}
+  - {t: ⎵, h: Raise}
   - {t: ⌦, h: Fun}
   Lower:
   - ⌘Q
