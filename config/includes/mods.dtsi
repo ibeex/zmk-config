@@ -1,0 +1,72 @@
+#define HM_TAPPING_TERM 280
+#define HM_TAPPING_TERM_FAST 200
+
+/ {
+
+  behaviors {
+
+    // Positional Homerow mods
+    // Homerow mods that prevent accidental activations when rolling keys,
+    // such as when typing `st` or `ne` on colemak-dh layouts or `as` on
+    // qwerty.
+    //
+    // Works by only allowing a mod to activate within tapping-term if
+    // it's on the opposite side of the keyboard or on the same side thumb
+    // keys.
+
+    // Further optimization using urob's timerless homerow mods method:
+    // https://github.com/urob/zmk-config#timeless-homerow-mods
+    hml: homerow_mods_left {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_MODS_LEFT";
+      #binding-cells = <2>;
+      bindings = <&kp>, <&kp>;
+
+      flavor = "balanced";
+      tapping-term-ms = <280>;
+      quick-tap-ms = <175>;        // repeat on tap-into-hold
+      // global-quick-tap-ms = <150>;         // requires PR #1387
+      global-quick-tap;
+      hold-trigger-key-positions = <KEYS_R KEYS_T>;
+      hold-trigger-on-release;       // requires PR #1423
+    };
+
+    hmr: homerow_mods_right {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_MODS_RIGHT";
+      #binding-cells = <2>;
+      bindings = <&kp>, <&kp>;
+
+      flavor = "balanced";
+      tapping-term-ms = <280>;
+      // global-quick-tap-ms = <150>;         // requires PR #1387
+      quick_tap_ms = <175>;
+      global-quick-tap;
+      hold-trigger-key-positions = <KEYS_L KEYS_T>;
+      hold-trigger-on-release;       // requires PR #1423
+    };
+
+
+    /*
+     * Non-Positional Homerow Mods
+     * Used for &mm_grescm_gui behavior on left hand.
+     *
+     * Usage: &hm LSHFT T
+     * Tap: T
+     * Tap-Tap-Hold: Repeat T
+     * Hold: LSHIFT
+     */
+    tm: thumb_mods {
+      compatible = "zmk,behavior-hold-tap";
+      label = "THUMB_MODS";
+      #binding-cells = <2>;
+      bindings = <&kp>, <&kp>;
+
+      flavor = "balanced";
+      tapping-term-ms = <200>;
+      quick_tap_ms = <175>;
+      retro-tap; // use tap when key is used without another key
+    };
+
+  };
+};
