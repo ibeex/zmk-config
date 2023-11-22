@@ -32,10 +32,10 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {t: ⎋, h: ⌘}
-  - {t: ⇥, h: Lower}
+  - {t: ⇥, h: '1'}
   - {t: ⌫, h: Adjust}
   - {t: ⏎, h: ⇧}
-  - {t: ⎵, h: Raise}
+  - {t: ⎵, h: '2'}
   - {t: ⌦, h: Fun}
   Lower:
   - ⌘Q
@@ -69,7 +69,7 @@ layers:
   - '>'
   - '~'
   - 🌍
-  - {type: held}
+  - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - _
   - '-'
@@ -109,7 +109,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {type: held}
+  - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   Fun:
   - F12

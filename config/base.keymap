@@ -38,12 +38,12 @@
 //    ├───┼─────────────┼─────────────┼──────────────┼──────────────┼───────────────┼─────────────────────────────────┼─────────────────┼──────────────┼──────────────┼─────────────┼──────────────┼───┤
 //    │   │      Z      │      X      │      C       │      V       │       B       │                                 │       N         │      M       │ &comma_morph │ &dot_morph  │ &qmark_morph │   │
 //    ╰───┴─────────────┴─────────────┼──────────────┼──────────────┼───────────────┼─────────────────┬───────────────┼─────────────────┼──────────────┼──────────────┼─────────────┴──────────────┴───╯
-//                                    │              │ &lt LGUI ESC │ &tm LOWER TAB │ &lt ADJUST BSPC │ &lt RSHFT RET │ &tm RAISE SPACE │ &lt FUN DEL  │              │                                 
+//                                    │              │ &tm LGUI ESC │ &tm LOWER TAB │ &lt ADJUST BSPC │ &tm RSHFT RET │ &tm RAISE SPACE │ &lt FUN DEL  │              │                                 
 //                                    ╰──────────────┴──────────────┴───────────────┴─────────────────┴───────────────┴─────────────────┴──────────────┴──────────────╯                                 
   _LTX   &kp Q         &kp W         &hml MEH E     &kp R          &kp T                                              &kp Y            &kp U          &hmr MEH I     &kp O         &kp P           _RTX
   _LMX   &hml LGUI A   &hml LALT S   &hml LCTRL D   &hml LSHFT F   &kp G                                              &kp H            &hmr LSHFT J   &hmr LCTRL K   &hmr LALT L   &hmr RGUI SQT   _RMX
   _LBX   &kp Z         &kp X         &kp C          &kp V          &kp B                         _MBX                 &kp N            &kp M          &comma_morph   &dot_morph    &qmark_morph    _RBX
-                                     _LHX           &lt LGUI ESC   &tm LOWER TAB   &lt ADJUST BSPC   &lt RSHFT RET   &tm RAISE SPACE   &lt FUN DEL    _RHX                                             
+                                     _LHX           &tm LGUI ESC   &tm LOWER TAB   &lt ADJUST BSPC   &tm RSHFT RET   &tm RAISE SPACE   &lt FUN DEL    _RHX                                             
       >;
     };
 
@@ -140,7 +140,6 @@
   _LBX   &trans   &trans   &trans   &trans   &trans        _MBX         &trans   &trans   &trans   &trans   &trans   _RBX
                            _LHX     &trans   &trans   &trans   &trans   &trans   &trans   _RHX                           
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
   };
 };
