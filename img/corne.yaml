@@ -38,10 +38,10 @@ layers:
   - {t: ⎵, h: Raise}
   - {t: ⌦, h: Fun}
   Lower:
-  - ⌘Q
-  - ⌃W
-  - ⇧⌃⇥
-  - ⌃⇥
+  - LG(Q)
+  - LC(W)
+  - ⇧⌥ ⇥
+  - ⌥ ⇥
   - ⌃T
   - '['
   - ']'
@@ -117,11 +117,11 @@ layers:
   - F8
   - F9
   - 🖨️
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - š
+  - đ
+  - č
+  - ć
+  - ž
   - F11
   - F4
   - F5
@@ -141,7 +141,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - €
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -149,16 +149,16 @@ layers:
   - {t: ' ', type: trans}
   - {type: held}
   Adjust:
-  - 🔄
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - 🔌
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
   - 🔅
   - 🔆
   - {t: ' ', type: trans}
-  - 🔄
+  - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -169,16 +169,16 @@ layers:
   - 🔊
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - 💾
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - 🛜❌
-  - 🛜🔽
-  - 🛜🔼
   - {t: ' ', type: trans}
-  - 💾
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {type: held}

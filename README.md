@@ -8,6 +8,7 @@ My current keyboard is an Chocofi.
 
 ## Resources
 
+- [Folke's ZMK Config](https://github.com/folke/zmk-config)
 - [urob](https://github.com/urob/zmk-config): timeless home row mods
 - [infused-kim](https://github.com/infused-kim/zmk-config)
 - [miryoku_zmk](https://github.com/manna-harbour/miryoku_zmk)
