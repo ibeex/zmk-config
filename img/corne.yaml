@@ -150,8 +150,8 @@ layers:
   - {type: held}
   Adjust:
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - Sw8
+  - Sw9
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -159,7 +159,7 @@ layers:
   - 🔆
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - Sw4
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -169,9 +169,9 @@ layers:
   - 🔊
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - Sw1
+  - Sw2
+  - Sw3
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
