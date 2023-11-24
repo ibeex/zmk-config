@@ -117,11 +117,11 @@ layers:
   - F8
   - F9
   - 🖨️
-  - RA(LBKT)
-  - RA(RBKT)
-  - RA(SEMI)
-  - RA(SQT)
-  - RA(BSLH)
+  - š
+  - đ
+  - č
+  - ć
+  - ž
   - F11
   - F4
   - F5
@@ -141,7 +141,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - RA(E)
+  - €
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
