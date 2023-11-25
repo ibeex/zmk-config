@@ -220,8 +220,8 @@ parse_config:
     PIPE2: '|'
     NON_US_BSLH: '|'
     SEMICOLON: ;
-    SEMI: ;
-    COLON: ':'
+    SEMI: '; <'
+    COLON: ': >'
     SINGLE_QUOTE: ''''
     SQT: {tap: "'", shifted: '"'}
     APOSTROPHE: <
@@ -230,11 +230,11 @@ parse_config:
     DQT: '"'
     COMMA: ','
     LESS_THAN: <
-    LT: '< ;'
+    LT: '<'
     PERIOD: .
     DOT: .
     GREATER_THAN: '>'
-    GT: '> :'
+    GT: '>'
     LEFT_BRACKET: '['
     LBKT: '['
     LEFT_BRACE: '{'
