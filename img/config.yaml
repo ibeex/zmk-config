@@ -223,7 +223,7 @@ parse_config:
     SEMI: ;
     COLON: ':'
     SINGLE_QUOTE: ''''
-    SQT: ''''
+    SQT: {tap: "'", shifted: '"'}
     APOSTROPHE: <
     APOS: .
     DOUBLE_QUOTES: '"'
