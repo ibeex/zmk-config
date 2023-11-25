@@ -34,16 +34,16 @@
 //    ╭───┬─────────────┬─────────────┬──────────────┬──────────────┬───────────────╮                                 ╭─────────────────┬──────────────┬──────────────┬─────────────┬──────────────┬───╮
 //    │   │      Q      │      W      │  &hml MEH E  │      R       │       T       │                                 │       Y         │      U       │  &hmr MEH I  │      O      │      P       │   │
 //    ├───┼─────────────┼─────────────┼──────────────┼──────────────┼───────────────┤                                 ├─────────────────┼──────────────┼──────────────┼─────────────┼──────────────┼───┤
-//    │   │ &hml LGUI A │ &hml LALT S │ &hml LCTRL D │ &hml LSHFT F │       G       │                                 │       H         │ &hmr LSHFT J │ &hmr LCTRL K │ &hmr LALT L │ &hmr RGUI '  │   │
+//    │   │ &hml LGUI A │ &hml LALT S │ &hml LCTRL D │ &hml LSHFT F │       G       │                                 │       H         │ &hmr LSHFT J │ &hmr LCTRL K │ &hmr LALT L │ &hmr LGUI '  │   │
 //    ├───┼─────────────┼─────────────┼──────────────┼──────────────┼───────────────┼─────────────────────────────────┼─────────────────┼──────────────┼──────────────┼─────────────┼──────────────┼───┤
 //    │   │      Z      │      X      │      C       │      V       │       B       │                                 │       N         │      M       │ &comma_morph │ &dot_morph  │ &qmark_morph │   │
 //    ╰───┴─────────────┴─────────────┼──────────────┼──────────────┼───────────────┼─────────────────┬───────────────┼─────────────────┼──────────────┼──────────────┼─────────────┴──────────────┴───╯
-//                                    │              │ &tm LGUI ESC │ &lt LOWER TAB │ &lt ADJUST BSPC │ &tm RSHFT RET │ &lt RAISE SPACE │ &lt FUN DEL  │              │                                 
+//                                    │              │ &kp ESC      │ &lt LOWER TAB │ &lt ADJUST BSPC │ &tm RSHFT RET │ &lt RAISE SPACE │ &lt FUN DEL  │              │                                 
 //                                    ╰──────────────┴──────────────┴───────────────┴─────────────────┴───────────────┴─────────────────┴──────────────┴──────────────╯                                 
   _LTX   &kp Q         &kp W         &hml MEH E     &kp R          &kp T                                              &kp Y            &kp U          &hmr MEH I     &kp O         &kp P           _RTX
-  _LMX   &hml LGUI A   &hml LALT S   &hml LCTRL D   &hml LSHFT F   &kp G                                              &kp H            &hmr LSHFT J   &hmr LCTRL K   &hmr LALT L   &hmr RGUI SQT   _RMX
+  _LMX   &hml LGUI A   &hml LALT S   &hml LCTRL D   &hml LSHFT F   &kp G                                              &kp H            &hmr LSHFT J   &hmr LCTRL K   &hmr LALT L   &hmr LGUI SQT   _RMX
   _LBX   &kp Z         &kp X         &kp C          &kp V          &kp B                         _MBX                 &kp N            &kp M          &comma_morph   &dot_morph    &qmark_morph    _RBX
-                                     _LHX           &tm LGUI ESC   &lt LOWER TAB   &lt ADJUST BSPC   &tm RSHFT RET   &lt RAISE SPACE   &lt FUN DEL    _RHX                                             
+                                     _LHX           &kp ESC        &lt LOWER TAB   &lt ADJUST BSPC   &tm RSHFT RET   &lt RAISE SPACE   &lt FUN DEL    _RHX                                             
       >;
     };
 
@@ -55,13 +55,13 @@
 //    ├───┼──────┼──────┼───────┼───────┼────┤       ├───┼───┼───┼───┼───┼───┤
 //    │   │ LGUI │ LALT │ LCTRL │ LSHFT │    │       │ # │ = │ ( │ ) │ ` │   │
 //    ├───┼──────┼──────┼───────┼───────┼────┼───────┼───┼───┼───┼───┼───┼───┤
-//    │   │  ↩️   │  ✂️   │  📄   │  📋   │    │       │ ^ │ $ │ < │ > │ ~ │   │
+//    │   │  ↩️   │  ✂️   │  📄   │  📋   │ ^B │       │ ^ │ $ │ < │ > │ ~ │   │
 //    ╰───┴──────┴──────┼───────┼───────┼────┼───┬───┼───┼───┼───┼───┴───┴───╯
 //                      │       │  🌍   │    │   │ _ │ - │ + │   │            
 //                      ╰───────┴───────┴────┴───┴───┴───┴───┴───╯            
   _LTX   &trans       &trans      &kp LS(LA(TAB))   &kp LA(TAB)   &kp LC(T)                             &kp LBKT    &kp RBKT     &kp LBRC   &kp RBRC   &kp PRCNT   _RTX
   _LMX   &kp LGUI     &kp LALT    &kp LCTRL         &kp LSHFT     &trans                                &kp HASH    &kp EQUAL    &kp LPAR   &kp RPAR   &kp GRAVE   _RMX
-  _LBX   &kp K_UNDO   &kp CUT     &kp COPY          &kp PASTE     &trans               _MBX             &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
+  _LBX   &kp K_UNDO   &kp CUT     &kp COPY          &kp PASTE     &kp LC(B)            _MBX             &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
                                   _LHX              &kp COMPOSE   &trans      &trans   &kp UNDERSCORE   &kp MINUS   &kp PLUS     _RHX                                  
       >;
     };
@@ -72,14 +72,14 @@
 //    ╭───┬───┬───┬───┬───┬───╮       ╭───┬───┬───┬───┬──────┬───╮
 //    │   │   │ 7 │ 8 │ 9 │   │       │ & │ / │ | │ \ │      │   │
 //    ├───┼───┼───┼───┼───┼───┤       ├───┼───┼───┼───┼──────┼───┤
-//    │   │ @ │ 4 │ 5 │ 6 │ 0 │       │ ← │ ↓ │ ↑ │ → │ RGUI │   │
+//    │   │ @ │ 4 │ 5 │ 6 │ 0 │       │ ← │ ↓ │ ↑ │ → │      │   │
 //    ├───┼───┼───┼───┼───┼───┼───────┼───┼───┼───┼───┼──────┼───┤
 //    │   │   │ 1 │ 2 │ 3 │ * │       │ ⇱ │ ⇟ │ ⇞ │ ⇲ │      │   │
 //    ╰───┴───┴───┼───┼───┼───┼───┬───┼───┼───┼───┼───┴──────┴───╯
 //                │   │   │   │   │   │   │   │   │               
 //                ╰───┴───┴───┴───┴───┴───┴───┴───╯               
   _LTX   &trans   &kp N7   &kp N8   &kp N9   &trans                              &kp AMPS   &kp FSLH    &kp PIPE    &kp BSLH    &trans     _RTX
-  _LMX   &kp AT   &kp N4   &kp N5   &kp N6   &kp N0                              &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT   &kp RGUI   _RMX
+  _LMX   &kp AT   &kp N4   &kp N5   &kp N6   &kp N0                              &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT   &trans     _RMX
   _LBX   &trans   &kp N1   &kp N2   &kp N3   &kp KP_MULTIPLY        _MBX         &kp HOME   &kp PG_DN   &kp PG_UP   &kp END     &trans     _RBX
                            _LHX     &trans   &trans            &trans   &trans   &trans     &trans      _RHX                                   
       >;
@@ -91,14 +91,14 @@
 //    ╭───┬─────┬────┬────┬────┬───────╮       ╭───┬───────┬───────┬──────┬──────┬───╮
 //    │   │ F12 │ F7 │ F8 │ F9 │ PSCRN │       │ š │   đ   │   č   │   ć  │   ž  │   │
 //    ├───┼─────┼────┼────┼────┼───────┤       ├───┼───────┼───────┼──────┼──────┼───┤
-//    │   │ F11 │ F4 │ F5 │ F6 │       │       │   │ LSHFT │ LCTRL │ LALT │ RGUI │   │
+//    │   │ F11 │ F4 │ F5 │ F6 │       │       │   │ LSHFT │ LCTRL │ LALT │ LGUI │   │
 //    ├───┼─────┼────┼────┼────┼───────┼───────┼───┼───────┼───────┼──────┼──────┼───┤
 //    │   │ F10 │ F1 │ F2 │ F3 │       │       │   │       │       │      │  €   │   │
 //    ╰───┴─────┴────┼────┼────┼───────┼───┬───┼───┼───────┼───────┼──────┴──────┴───╯
 //                   │    │    │       │   │   │   │       │       │                  
 //                   ╰────┴────┴───────┴───┴───┴───┴───────┴───────╯                  
   _LTX   &kp F12   &kp F7   &kp F8   &kp F9   &kp PSCRN                     &kp RA(LBKT) &kp RA(RBKT)  &kp RA(SEMI)  &kp RA(SQT)  &kp RA(BSLH)  _RTX
-  _LMX   &kp F11   &kp F4   &kp F5   &kp F6   &trans                        &trans       &kp LSHFT     &kp LCTRL     &kp LALT     &kp RGUI      _RMX
+  _LMX   &kp F11   &kp F4   &kp F5   &kp F6   &trans                        &trans       &kp LSHFT     &kp LCTRL     &kp LALT     &kp LGUI      _RMX
   _LBX   &kp F10   &kp F1   &kp F2   &kp F3   &trans           _MBX         &trans       &trans        &trans        &trans       &kp RA(E)     _RBX
                             _LHX     &trans   &trans      &trans   &trans   &trans       &trans        _RHX                                  
       >;

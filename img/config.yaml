@@ -149,7 +149,6 @@ parse_config:
     RIGHT_SHFT: ⇧
     TAB: ⇥
     RET: '⏎'
-    ESC: '⎋'
     BSPC: ⌫
     DEL: ⌦
     SPACE: ⎵
