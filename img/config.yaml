@@ -230,11 +230,11 @@ parse_config:
     DQT: '"'
     COMMA: ','
     LESS_THAN: <
-    LT: <
+    LT: '< ;'
     PERIOD: .
     DOT: .
     GREATER_THAN: '>'
-    GT: '>'
+    GT: '> :'
     LEFT_BRACKET: '['
     LBKT: '['
     LEFT_BRACE: '{'
