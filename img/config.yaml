@@ -29,6 +29,7 @@ parse_config:
     'LS(INS)': "📋"
     'LS(DEL)': "✂️"
     'LC(T)': "⌃T"
+    'LC(B)': "⌃B"
     'LA(TAB)': "⌥ ⇥"
     'LS(LA(TAB))': "⇧⌥ ⇥"
     'RA(LBKT)': "š"
