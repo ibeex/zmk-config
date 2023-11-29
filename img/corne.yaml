@@ -173,7 +173,7 @@ layers:
   - Sw1
   - Sw2
   - Sw3
-  - {t: ' ', type: trans}
+  - LG(LS(UP))
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
