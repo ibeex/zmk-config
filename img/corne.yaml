@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
 layers:
-  Base:
+  base:
   - Q
   - W
   - {t: E, h: MEH}
@@ -32,12 +32,12 @@ layers:
   - {t: ., s: ': >'}
   - {t: '?', s: '!'}
   - ESC
-  - {t: ⇥, h: Lower}
-  - {t: ⌫, h: Adjust}
+  - {t: ⇥, h: lower}
+  - {t: ⌫, h: adjust}
   - {t: ⏎, h: ⇧}
-  - {t: ⎵, h: Raise}
-  - {t: ⌦, h: Fun}
-  Lower:
+  - {t: ⎵, h: raise}
+  - {t: ⌦, h: fun}
+  lower:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -74,7 +74,7 @@ layers:
   - _
   - '-'
   - +
-  Raise:
+  raise:
   - {t: ' ', type: trans}
   - '7'
   - '8'
@@ -111,7 +111,7 @@ layers:
   - {t: ' ', type: trans}
   - {type: held}
   - {t: ' ', type: trans}
-  Fun:
+  fun:
   - F12
   - F7
   - F8
@@ -148,7 +148,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {type: held}
-  Adjust:
+  adjust:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - Sw8
@@ -185,7 +185,7 @@ layers:
   - ⏯️
   - ⏮️
   - ⏭️
-  Empty:
+  empty:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -225,34 +225,34 @@ layers:
 combos:
 - p: [13, 16]
   k: 🔠
-  l: [Base]
+  l: [base]
 - p: [32, 33]
   k: .⎵⇧
-  l: [Base]
+  l: [base]
 - p: [15, 16]
   k: '='
-  l: [Base]
+  l: [base]
 - p: [6, 16]
   k: '['
-  l: [Base]
+  l: [base]
 - p: [8, 18]
   k: ']'
-  l: [Base]
+  l: [base]
 - p: [6, 7]
   k: '{'
-  l: [Base]
+  l: [base]
 - p: [7, 8]
   k: '}'
-  l: [Base]
+  l: [base]
 - p: [16, 17]
   k: (
-  l: [Base]
+  l: [base]
 - p: [17, 18]
   k: )
-  l: [Base]
+  l: [base]
 - p: [26, 27]
   k: /
-  l: [Base]
+  l: [base]
 - p: [27, 28]
   k: \
-  l: [Base]
+  l: [base]

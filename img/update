@@ -2,7 +2,7 @@
 
 set -e
 
-LAYERS=(Base Lower Raise Adjust Fun)
+LAYERS=(base lower raise adjust fun)
 
 draw() {
 	keymap -c ./img/config.yaml parse -z config/"$1".keymap >./img/"$1".yaml
