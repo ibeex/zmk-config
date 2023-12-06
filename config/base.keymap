@@ -22,9 +22,9 @@
 #define COPY LC(INS)
 #define PASTE LS(INS)
 #define COMPOSE K_CMENU
-#define PASTE_1 LC(1)
-#define PASTE_2 LC(2)
-#define PASTE_3 LC(3)
+#define PASTE1 LC(1)
+#define PASTE2 LC(2)
+#define PASTE3 LC(3)
 
 / {
  
@@ -63,7 +63,7 @@
 //                      │       │  🌍   │     │   │ _ │ - │ + │   │            
 //                      ╰───────┴───────┴─────┴───┴───┴───┴───┴───╯            
   _LTX   &trans       &trans       &trans        &kp LA(TAB)   &kp LC(T)                             &kp LBKT    &kp RBKT     &kp LBRC   &kp RBRC   &kp PRCNT   _RTX
-  _LMX   &trans       &kp PASTE_1  &kp PASTE_2   &kp PASTE_3   &kp DEL                               &kp HASH    &kp EQUAL    &kp LPAR   &kp RPAR   &kp GRAVE   _RMX
+  _LMX   &trans       &kp PASTE1   &kp PASTE2    &kp PASTE3    &kp DEL                               &kp HASH    &kp EQUAL    &kp LPAR   &kp RPAR   &kp GRAVE   _RMX
   _LBX   &kp K_UNDO   &kp CUT      &kp COPY      &kp PASTE     &trans               _MBX             &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
                                    _LHX          &kp COMPOSE   &trans      &trans   &kp UNDERSCORE   &kp MINUS   &kp PLUS     _RHX                                  
       >;

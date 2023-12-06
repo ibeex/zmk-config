@@ -45,6 +45,9 @@ parse_config:
     'RG(N8)': "Sw8"
     'RG(N9)': "Sw9"
     'LG(LS(UP))': "WmP"
+    'LC(1)': "P1"
+    'LC(2)': "P2"
+    'LC(3)': "P3"
     MEH: MEH
     'LC(LS(LALT))': "MEH"
     K_UNDO: "↩️"
