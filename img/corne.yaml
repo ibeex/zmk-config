@@ -49,9 +49,9 @@ layers:
   - '}'
   - '%'
   - {t: ' ', type: trans}
-  - P1
-  - P2
-  - P3
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
   - ⌦
   - '#'
   - '='
