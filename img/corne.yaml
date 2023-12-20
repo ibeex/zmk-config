@@ -192,6 +192,19 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mmv MOVE_VERT(-1250)'
+  - '&mwh SCROLL_VERT(100)'
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - {t: ' ', type: trans}
+  - '&mmv MOVE_HOR(-1250)'
+  - '&mmv MOVE_VERT(1250)'
+  - '&mmv MOVE_HOR(1250)'
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -206,21 +219,8 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ' ', type: trans}
 combos:
 - p: [13, 16]
@@ -255,4 +255,7 @@ combos:
   l: [base]
 - p: [27, 28]
   k: \
+  l: [base]
+- p: [1, 3]
+  k: sm
   l: [base]

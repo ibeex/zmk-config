@@ -350,6 +350,12 @@ path.combo {
 <rect rx="6" ry="6" x="655" y="137" width="28" height="26" class="combo"/>
 <text x="669" y="150" class="combo tap">\</text>
 </g>
+<g class="combo combopos-11">
+<path d="M148,49 l-40,-1" class="combo"/>
+<path d="M148,49 l40,1" class="combo"/>
+<rect rx="6" ry="6" x="134" y="36" width="28" height="26" class="combo"/>
+<text x="148" y="49" class="combo tap">sm</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-lower">
