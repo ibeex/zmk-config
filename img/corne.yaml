@@ -257,5 +257,5 @@ combos:
   k: \
   l: [base]
 - p: [1, 3]
-  k: '&smart_mouse'
-  l: [base]
+  k: {t: empty, h: toggle}
+  l: [base, empty]
