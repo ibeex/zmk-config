@@ -257,5 +257,5 @@ combos:
   k: \
   l: [base]
 - p: [1, 3]
-  k: '&sm'
+  k: '&mouse'
   l: [base]
