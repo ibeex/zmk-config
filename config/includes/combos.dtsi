@@ -95,6 +95,7 @@
       layers = <BASE>;
       require-prior-idle-ms = <175>;
     };
+
     // mouse
     combo_mouse {
       timeout-ms = <50>;
