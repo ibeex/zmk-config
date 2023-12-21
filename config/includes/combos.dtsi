@@ -99,7 +99,7 @@
     combo_ms {
       timeout-ms = <50>;
       key-positions = <LT3 LT1>;
-      bindings = <&kp sm>;
+      bindings = <&sm>;
       layers = <BASE>;
       require-prior-idle-ms = <175>;
     };
