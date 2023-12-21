@@ -99,7 +99,7 @@
     combo_mouse {
       timeout-ms = <50>;
       key-positions = <LT3 LT1>;
-      bindings = <&sm>;
+      bindings = <&smart_mouse>;
       layers = <BASE>;
       require-prior-idle-ms = <175>;
     };

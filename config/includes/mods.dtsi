@@ -66,8 +66,8 @@
       retro-tap; // use tap when key is used without another key
     };
 
-  // smart-mouse, requires PR #1366
-    sm: smart_mouse {
+  // smart_mouse, requires PR #1366
+    smart_mouse: smart_mouse {
       cmpatible = "zmk,behavior-tri-state";
       #binding-cells = <0>;
       bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
