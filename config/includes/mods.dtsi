@@ -69,10 +69,10 @@
   // smart-mouse, requires PR #1366
     sm: smart_mouse {
       cmpatible = "zmk,behavior-tri-state";
-      bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
       #binding-cells = <0>;
-
+      bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
       lable = "SMART_MOUSE";
+
       ignored-key-positions = <LT1 LT3 RT1 RT2 RT3 RM1 RM2 RM3 RH0 RH1>;
       ignored-layers = <MOUSE>;
     };
