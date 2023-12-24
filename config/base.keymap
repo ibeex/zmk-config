@@ -61,9 +61,9 @@
 //    ╰───┴──────┴──────┼───────┼───────┼─────┼───┬───┼───┼───┼───┼───┴───┴───╯
 //                      │       │  🌍   │     │   │ _ │ - │ + │   │            
 //                      ╰───────┴───────┴─────┴───┴───┴───┴───┴───╯            
-  _LTX   &trans       &trans       &trans        &kp LA(TAB)   &kp LC(T)                             &kp LBKT    &kp RBKT     &kp LBRC   &kp RBRC   &kp PRCNT   _RTX
+  _LTX   &trans       &trans       &trans        &swapper      &kp LC(T)                             &kp LBKT    &kp RBKT     &kp LBRC   &kp RBRC   &kp PRCNT   _RTX
   _LMX   &trans       &trans       &trans        &trans        &kp DEL                               &kp HASH    &kp EQUAL    &kp LPAR   &kp RPAR   &kp GRAVE   _RMX
-  _LBX   &kp K_UNDO   &kp CUT      &kp COPY      &kp PASTE     &kp RET               _MBX             &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
+  _LBX   &kp K_UNDO   &kp CUT      &kp COPY      &kp PASTE     &kp RET               _MBX            &kp CARET   &kp DOLLAR   &kp LT     &kp GT     &kp TILDE   _RBX
                                    _LHX          &kp COMPOSE   &trans      &trans   &kp UNDERSCORE   &kp MINUS   &kp PLUS     _RHX                                  
       >;
     };

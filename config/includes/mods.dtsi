@@ -76,5 +76,15 @@
       ignored-key-positions = <LT1 LT3 RT1 RT2 RT3 RM1 RM2 RM3 RH0 RH1>;
       ignored-layers = <MOUSE>;
     };
+
+  // Swaper
+    swapper: swapper {
+      compatible = "zmk,behavior-tri-state";
+      #binding-cells = <0>;
+      bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+      label = "SWAPPER";
+
+      ignored-key-positions = <LT2>;
+    };
   };
 };
