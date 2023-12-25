@@ -140,7 +140,7 @@
   _LTX   &trans   &trans   &trans   &trans   &trans                     &trans   U_WH_D   U_MS_U   U_WH_U   &trans   _RTX
   _LMX   &trans   &trans   &trans   &trans   &trans                     &trans   U_MS_L   U_MS_D   U_MS_R   &trans   _RMX
   _LBX   &trans   &trans   &trans   &trans   &trans        _MBX         &trans   &trans   &trans   &trans   &trans   _RBX
-                           _LHX     &trans   &trans   &trans   U_BTN1   U_BTN2   &trans   _RHX                           
+                           _LHX     &trans   &trans   &trans   U_BTN1   U_BTN2   U_BTN3   _RHX                           
       >;
     };
   };
