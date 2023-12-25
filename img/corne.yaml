@@ -221,7 +221,7 @@ layers:
   - {t: ' ', type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ' ', type: trans}
+  - '&mkp MB3'
 combos:
 - p: [13, 16]
   k: 🔠
