@@ -6,6 +6,7 @@ parse_config:
   skip_binding_parsing: false
   raw_binding_map:
     '&smart_mouse': "🖱"
+    '&swapper': "⌥ ⇥"
     '&ext_power EP_TOG': "🔌"
     '&caps_word': "🔠"
     '&bootloader': "💾"
