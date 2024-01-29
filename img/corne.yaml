@@ -95,7 +95,7 @@ layers:
   - ↑
   - →
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - '-'
   - '1'
   - '2'
   - '3'
@@ -107,7 +107,7 @@ layers:
   - {t: ' ', type: trans}
   - +
   - .
-  - '-'
+  - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {type: held}
   - {t: ' ', type: trans}
