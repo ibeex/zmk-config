@@ -5,118 +5,121 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    '&smart_mouse': "🖱"
-    '&swapper': "⌥ ⇥"
-    '&ext_power EP_TOG': "🔌"
-    '&caps_word': "🔠"
-    '&bootloader': "💾"
-    '&sys_reset': "🔄"
-    '&reset_td': "🔄"
-    '&dot_spc': ".⎵⇧"
-    '&bt BT_SEL 0': 🛜1
-    '&bt BT_SEL 1': 🛜2
-    '&bt BT_SEL 2': 🛜3
-    '&bt BT_SEL 3': 🛜4
-    '&bt BT_SEL 4': 🛜5
-    '&bt BT_NXT': 🛜🔼
-    '&bt BT_PRV': 🛜🔽
-    '&bt BT_CLR': 🛜❌
+    "&smart_mouse": "🖱"
+    "&swapper": "⌥ ⇥"
+    "&ext_power EP_TOG": "🔌"
+    "&caps_word": "🔠"
+    "&bootloader": "💾"
+    "&sys_reset": "🔄"
+    "&reset_td": "🔄"
+    "&dot_spc": ".⎵⇧"
+    "&bt BT_SEL 0": 🛜1
+    "&bt BT_SEL 1": 🛜2
+    "&bt BT_SEL 2": 🛜3
+    "&bt BT_SEL 3": 🛜4
+    "&bt BT_SEL 4": 🛜5
+    "&bt BT_NXT": 🛜🔼
+    "&bt BT_PRV": 🛜🔽
+    "&bt BT_CLR": 🛜❌
   sticky_label: sticky
   trans_legend:
     t: " "
     type: trans
   mark_alternate_layer_activators: false
   zmk_keycode_map:
-    'LC(INS)': "📄"
-    'LS(INS)': "📋"
-    'LS(DEL)': "✂️"
-    'LC(T)': "⌃T"
-    'LC(B)': "⌃B"
-    'LA(TAB)': "⌥ ⇥"
-    'LS(LA(TAB))': "⇧⌥ ⇥"
-    'RA(LBKT)': "š"
-    'RA(RBKT)': "đ"
-    'RA(SEMI)': "č"
+    "LC(INS)": "📄"
+    "LS(INS)": "📋"
+    "LS(DEL)": "✂️"
+    "LC(T)": "⌃T"
+    "LC(B)": "⌃B"
+    "LA(TAB)": "⌥ ⇥"
+    "LS(LA(TAB))": "⇧⌥ ⇥"
+    "RA(LBKT)": "š"
+    "RA(RBKT)": "đ"
+    "RA(SEMI)": "č"
     "RA(SQT)": "ć"
-    'RA(BSLH)': "ž"
-    'RA(E)': "€"
-    'RG(N1)': "Sw1"
-    'RG(N2)': "Sw2"
-    'RG(N3)': "Sw3"
-    'RG(N4)': "Sw4"
-    'RG(N8)': "Sw8"
-    'RG(N9)': "Sw9"
-    'LG(LS(UP))': "WmP"
-    'LC(1)': "P1"
-    'LC(2)': "P2"
-    'LC(3)': "P3"
+    "RA(BSLH)": "ž"
+    "RA(E)": "€"
+    "RG(N1)": "Sw1"
+    "RG(N2)": "Sw2"
+    "RG(N3)": "Sw3"
+    "RG(N4)": "Sw4"
+    "RG(N5)": "Sw5"
+    "RG(N6)": "Sw6"
+    "RG(N7)": "Sw7"
+    "RG(N8)": "Sw8"
+    "RG(N9)": "Sw9"
+    "LG(LS(UP))": "WmP"
+    "LC(1)": "P1"
+    "LC(2)": "P2"
+    "LC(3)": "P3"
     MEH: MEH
-    'LC(LS(LALT))': "MEH"
+    "LC(LS(LALT))": "MEH"
     K_UNDO: "↩️"
-    EXCLAMATION: '!'
-    EXCL: '!'
-    AT_SIGN: '@'
-    AT: '@'
-    HASH: '#'
-    POUND: '#'
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
     DOLLAR: $
     DLLR: $
-    PERCENT: '%'
-    PRCNT: '%'
+    PERCENT: "%"
+    PRCNT: "%"
     CARET: ^
-    AMPERSAND: '&'
-    AMPS: '&'
-    ASTERISK: '*'
-    ASTRK: '*'
-    STAR: '*'
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
     LEFT_PARENTHESIS: (
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL: '='
+    EQUAL: "="
     PLUS: +
-    MINUS: '-'
+    MINUS: "-"
     UNDERSCORE: _
     UNDER: _
     SLASH: /
     FSLH: /
-    QUESTION: '?'
-    QMARK: '?'
+    QUESTION: "?"
+    QMARK: "?"
     BACKSLASH: \
     BSLH: \
-    PIPE: '|'
+    PIPE: "|"
     NON_US_BACKSLASH: \
-    PIPE2: '|'
-    NON_US_BSLH: '|'
+    PIPE2: "|"
+    NON_US_BSLH: "|"
     SEMICOLON: ;
-    SEMI: '; <'
-    COLON: ': >'
-    SINGLE_QUOTE: ''''
-    SQT: {tap: "'", shifted: '"'}
+    SEMI: "; <"
+    COLON: ": >"
+    SINGLE_QUOTE: "'"
+    SQT: { tap: "'", shifted: '"' }
     APOSTROPHE: <
     APOS: .
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA: ','
+    COMMA: ","
     LESS_THAN: <
-    LT: '<'
+    LT: "<"
     PERIOD: .
     DOT: .
-    GREATER_THAN: '>'
-    GT: '>'
-    LEFT_BRACKET: '['
-    LBKT: '['
-    LEFT_BRACE: '{'
-    LBRC: '{'
-    RIGHT_BRACKET: ']'
-    RBKT: ']'
-    RIGHT_BRACE: '}'
-    RBRC: '}'
-    GRAVE: '`'
-    TILDE: '~'
-    NON_US_HASH: '#'
-    NUHS: '#'
-    TILDE2: '~'
+    GREATER_THAN: ">"
+    GT: ">"
+    LEFT_BRACKET: "["
+    LBKT: "["
+    LEFT_BRACE: "{"
+    LBRC: "{"
+    RIGHT_BRACKET: "]"
+    RBKT: "]"
+    RIGHT_BRACE: "}"
+    RBRC: "}"
+    GRAVE: "`"
+    TILDE: "~"
+    NON_US_HASH: "#"
+    NUHS: "#"
+    TILDE2: "~"
     C_NEXT: ⏭️
     C_PREV: ⏮️
     C_PP: ⏯️
@@ -155,7 +158,7 @@ parse_config:
     RIGHT_GUI: ⌘
     RIGHT_SHFT: ⇧
     TAB: ⇥
-    RET: '⏎'
+    RET: "⏎"
     BSPC: ⌫
     DEL: ⌦
     SPACE: ⎵
