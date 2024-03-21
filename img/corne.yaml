@@ -68,7 +68,7 @@ layers:
   - <
   - '>'
   - '~'
-  - 🌍
+  - {t: ' ', type: trans}
   - {type: held}
   - {t: ' ', type: trans}
   - _
