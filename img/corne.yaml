@@ -192,9 +192,9 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mmv MOVE_VERT(-1250)'
-  - '&mwh SCROLL_VERT(100)'
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_UP'
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -202,9 +202,9 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - '&mmv MOVE_HOR(-1250)'
-  - '&mmv MOVE_VERT(1250)'
-  - '&mmv MOVE_HOR(1250)'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -219,9 +219,9 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
 combos:
 - p: [13, 16]
   k: 🔠
