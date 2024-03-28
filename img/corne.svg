@@ -16,6 +16,9 @@ svg.keymap {
 /* default key styling */
 rect.key {
     fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
     stroke: #c9cccf;
     stroke-width: 1;
 }
@@ -923,9 +926,10 @@ path.combo {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key trans"/>
 </g>
-<g transform="translate(758, 87)" class="key trans keypos-9">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key trans"/>
+<g transform="translate(758, 87)" class="key keypos-9">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">CLEAR</text>
 </g>
 <g transform="translate(30, 143)" class="key trans keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans side"/>
