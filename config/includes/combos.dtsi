@@ -1,3 +1,15 @@
+/*                KEY POSITIONS
+
+  ╭─────────────────────╮ ╭─────────────────────╮
+  │ LT4 LT3 LT2 LT1 LT0 │ │ RT0 RT1 RT2 RT3 RT4 │
+  │ LM4 LM3 LM2 LM1 LM0 │ │ RM0 RM1 RM2 RM3 RM4 │
+  │ LB4 LB3 LB2 LB1 LB0 │ │ RB0 RB1 RB2 RB3 RB4 │
+  ╰───────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────╯
+          ╰─────────────╯ ╰─────────────╯ */
+
+#define MCOPY LC(INS)
+#define MPASTE LS(INS)
+
 / {
   // idle timeout for combos is 10500/40 = 260
   combos {
@@ -15,6 +27,22 @@
       key-positions = <LH0 RH0>;
       bindings = <&dot_spc>;
       layers = <BASE>;
+    };
+
+    combo_paste {
+      timeout-ms = <50>;
+      key-positions = <LB1 LB2>;
+      bindings = <&kp MPASTE>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
+    };
+
+    combo_copy {
+      timeout-ms = <50>;
+      key-positions = <LB2 LB3>;
+      bindings = <&kp MCOPY>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
     };
 
     combo_equal {
