@@ -1,4 +1,5 @@
 / {
+  // idle timeout for combos is 10500/40 = 260
   combos {
     compatible = "zmk,combos";
 
@@ -21,7 +22,7 @@
       key-positions = <RM0 RM1>;
       bindings = <&kp EQUAL>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // [
@@ -30,7 +31,7 @@
       key-positions = <RT1 RM1>;
       bindings = <&kp LBKT>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // ]
@@ -39,7 +40,7 @@
       key-positions = <RT3 RM3>;
       bindings = <&kp RBKT>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // {
@@ -48,7 +49,7 @@
       key-positions = <RT1 RT2>;
       bindings = <&kp LBRC>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // }
@@ -57,7 +58,7 @@
       key-positions = <RT2 RT3>;
       bindings = <&kp RBRC>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // (
@@ -66,7 +67,7 @@
       key-positions = <RM1 RM2>;
       bindings = <&kp LPAR>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // )
@@ -75,7 +76,7 @@
       key-positions = <RM2 RM3>;
       bindings = <&kp RPAR>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // <
@@ -84,7 +85,7 @@
       key-positions = <RB1 RB2>;
       bindings = <&kp FSLH>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // >
@@ -93,17 +94,15 @@
       key-positions = <RB2 RB3>;
       bindings = <&kp BSLH>;
       layers = <BASE>;
-      require-prior-idle-ms = <175>;
+      require-prior-idle-ms = <260>;
     };
 
     // mouse
     combo_mouse {
       timeout-ms = <50>;
       key-positions = <LT3 LT1>;
-      // bindings = <&tog MOUSE>;
       bindings = <&smart_mouse>;
       layers = <BASE MOUSE>;
-      require-prior-idle-ms = <175>;
     };
   };
 };
