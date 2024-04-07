@@ -29,6 +29,30 @@
       layers = <BASE>;
     };
 
+    combo_minus {
+      timeout-ms = <50>;
+      key-positions = <RM1 RB1>;
+      bindings = <&kp MINUS>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
+    };
+
+    combo_underscore {
+      timeout-ms = <50>;
+      key-positions = <RM0 RB0>;
+      bindings = <&kp UNDERSCORE>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
+    };
+
+    combo_plus {
+      timeout-ms = <50>;
+      key-positions = <RT0 RM0>;
+      bindings = <&kp PLUS>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
+    };
+
     combo_paste {
       timeout-ms = <50>;
       key-positions = <LB1 LB2>;
