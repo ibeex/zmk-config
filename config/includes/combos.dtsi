@@ -29,6 +29,14 @@
       layers = <BASE>;
     };
 
+    combo_pipe {
+      timeout-ms = <50>;
+      key-positions = <RT2 RM2>;
+      bindings = <&kp PIPE>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
+    };
+
     combo_minus {
       timeout-ms = <50>;
       key-positions = <RM1 RB1>;
