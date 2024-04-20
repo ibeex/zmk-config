@@ -61,7 +61,7 @@ layers:
   - ↩️
   - Sft+ ⌦
   - Ctl+ INS
-  - Sft+ INS
+  - 📋
   - ⏎
   - ^
   - $
@@ -251,7 +251,7 @@ combos:
   k: +
   l: [base]
 - p: [23, 22]
-  k: Sft+ INS
+  k: 📋
   l: [base]
 - p: [22, 21]
   k: Ctl+ INS
