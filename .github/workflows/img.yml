@@ -19,11 +19,11 @@ jobs:
       - name: Install keymap-drawer (pypi)
         run: python3 -m pip install keymap-drawer
 
-      # - name: Install keymap-drawer (git)
-      #   run: python3 -m pip install "git+https://github.com/caksoylar/keymap-drawer.git"
-
       - name: Draw keymaps
         run: ./img/update
+
+      - name: Draw keymaps1
+        run: ./img/update_minus_adjust
 
       - name: Commit updated images
         uses: stefanzweifel/git-auto-commit-action@v4

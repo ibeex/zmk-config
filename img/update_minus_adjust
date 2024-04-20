@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+LAYERS=(base lower raise fun)
+
+draw() {
+	keymap -c ./img/config.yaml parse -z config/"$1".keymap >./img/"$1"_1.yaml
+	keymap -c ./img/config.yaml draw --select-layers "${LAYERS[@]}" -k "$2" ./img/"$1"_1.yaml >./img/"$1"_1.svg
+}
+
+draw corne "chocofi"
