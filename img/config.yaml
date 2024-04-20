@@ -21,6 +21,7 @@ parse_config:
     "&bt BT_NXT": 🛜🔼
     "&bt BT_PRV": 🛜🔽
     "&bt BT_CLR": 🛜❌
+    "&kp MPASTE": "📋"
   sticky_label: sticky
   trans_legend:
     t: " "
