@@ -3,12 +3,12 @@ layers:
   base:
   - Q
   - W
-  - {t: E, h: MEH}
+  - {t: E, h: Ctl+Sft+ ⌥}
   - R
   - T
   - Y
   - U
-  - {t: I, h: MEH}
+  - {t: I, h: Ctl+Sft+ ⌥}
   - O
   - P
   - {t: A, h: 🐧}
@@ -42,7 +42,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - ⌥ ⇥
-  - ⌃T
+  - Ctl+ T
   - '['
   - ']'
   - '{'
@@ -59,9 +59,9 @@ layers:
   - )
   - '`'
   - ↩️
-  - ✂️
-  - 📄
-  - 📋
+  - Sft+ ⌦
+  - Ctl+ INS
+  - Sft+ INS
   - ⏎
   - ^
   - $
@@ -117,11 +117,11 @@ layers:
   - F8
   - F9
   - 🖨️
-  - š
-  - đ
-  - č
-  - ć
-  - ž
+  - AGr+ [
+  - AGr+ ]
+  - AGr+ ; <
+  - {t: AGr+ ', s: AGr+ "}
+  - AGr+ \
   - F11
   - F4
   - F5
@@ -141,7 +141,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - €
+  - AGr+ E
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -150,9 +150,9 @@ layers:
   - {type: held}
   adjust:
   - {t: ' ', type: trans}
-  - Sw7
-  - Sw8
-  - Sw9
+  - Gui+ 7
+  - Gui+ 8
+  - Gui+ 9
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - 🔅
@@ -160,9 +160,9 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - Sw4
-  - Sw5
-  - Sw6
+  - Gui+ 4
+  - Gui+ 5
+  - Gui+ 6
   - {t: ' ', type: trans}
   - 🔇
   - 🔉
@@ -170,10 +170,10 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - Sw1
-  - Sw2
-  - Sw3
-  - WmP
+  - Gui+ 1
+  - Gui+ 2
+  - Gui+ 3
+  - Gui+Sft+ ↑
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
@@ -229,6 +229,15 @@ combos:
 - p: [32, 33]
   k: .⎵⇧
   l: [base]
+- p: [18, 28]
+  k: '#'
+  l: [base]
+- p: [11, 21]
+  k: '`'
+  l: [base]
+- p: [1, 11]
+  k: '@'
+  l: [base]
 - p: [7, 17]
   k: '|'
   l: [base]
@@ -242,10 +251,10 @@ combos:
   k: +
   l: [base]
 - p: [23, 22]
-  k: 📋
+  k: Sft+ INS
   l: [base]
 - p: [22, 21]
-  k: 📄
+  k: Ctl+ INS
   l: [base]
 - p: [15, 16]
   k: '='
