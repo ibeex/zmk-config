@@ -29,6 +29,14 @@
       layers = <BASE>;
     };
 
+    combo_amps {
+      timeout-ms = <50>;
+      key-positions = <LT3 LT2>;
+      bindings = <&kp AMPS>;
+      layers = <BASE>;
+      require-prior-idle-ms = <260>;
+    };
+
     combo_hash {
       timeout-ms = <50>;
       key-positions = <RM3 RB3>;
