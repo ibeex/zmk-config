@@ -40,7 +40,7 @@ layers:
   lower:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - {t: ' ', type: trans}
+  - ⌥ ~
   - ⌥ ⇥
   - Ctl+ T
   - '['
