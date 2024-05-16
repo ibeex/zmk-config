@@ -7,6 +7,7 @@ parse_config:
   raw_binding_map:
     "&smart_mouse": "🖱"
     "&swapper": "⌥ ⇥"
+    "&swapper_2": "⌥ ~"
     "&ext_power EP_TOG": "🔌"
     "&caps_word": "🔠"
     "&bootloader": "💾"
