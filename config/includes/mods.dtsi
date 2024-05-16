@@ -84,6 +84,16 @@
       bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
       label = "SWAPPER";
 
+      ignored-key-positions = <LT1>;
+    };
+
+  // Swaper_2
+    swapper_2: swapper_2 {
+      compatible = "zmk,behavior-tri-state";
+      #binding-cells = <0>;
+      bindings = <&kt LALT>, <&kp TILDE>, <&kt LALT>;
+      label = "SWAPPER_2";
+
       ignored-key-positions = <LT2>;
     };
   };
