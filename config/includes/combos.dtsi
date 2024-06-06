@@ -31,7 +31,7 @@
 
     combo_amps {
       timeout-ms = <50>;
-      key-positions = <LT3 LT2>;
+      key-positions = <RM2 RB2>;
       bindings = <&kp AMPS>;
       layers = <BASE>;
       require-prior-idle-ms = <260>;
