@@ -1,8 +1,8 @@
 #!/bin/bash
 
-set -e
+set -ex
 
-LAYERS=(base lower raise adjust fun)
+LAYERS=(Base Lower Raise Adjust Fun)
 
 draw() {
   keymap -c ./img/config.yaml parse -z config/"$1".keymap >./img/"$1".yaml
