@@ -7,8 +7,8 @@
   ╰───────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────╯
           ╰─────────────╯ ╰─────────────╯ */
 
-#define MCOPY LC(INS)
-#define MPASTE LS(INS)
+#define MCOPY LGUI(C)
+#define MPASTE LGUI(V)
 
 / {
   // idle timeout for combos is 10500/40 = 260

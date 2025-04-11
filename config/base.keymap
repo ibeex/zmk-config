@@ -20,9 +20,9 @@
 #include "includes/mouse.dtsi"
 
 #define MEH LC(LS(LALT))
-#define MCUT LS(DEL)
-#define MCOPY LC(INS)
-#define MPASTE LS(INS)
+#define MCUT LGUI(X)
+#define MCOPY LGUI(C)
+#define MPASTE LGUI(V)
 #define COMPOSE K_CMENU
 
 / {
