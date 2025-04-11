@@ -12,6 +12,6 @@ manifest:
 
     # ZMK modules
     - name: zmk-tri-state
-      path: modules/zmk/tri-state  
+      remote: urob
   self:
     path: config
