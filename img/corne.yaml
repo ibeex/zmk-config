@@ -42,7 +42,7 @@ layers:
   - {t: ' ', type: trans}
   - ⌥ ~
   - ⌥ ⇥
-  - Ctl+T
+  - Gui+T
   - '['
   - ']'
   - '{'
@@ -170,7 +170,7 @@ layers:
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
   - {t: ' ', type: trans}
-  - Alt+Gui+1
+  - Sw1
   - Sw2
   - Sw3
   - WmP
