@@ -118,9 +118,9 @@
 //    ╰───┴─────┴─────┼─────┼─────┼─────┼───┬────┼──────┼──────┼──────┼───┴────┴───╯
 //                    │     │     │     │   │ ⏯️ │  ⏮️  │  ⏭️  │      │             
 //                    ╰─────┴─────┴─────┴───┴────┴──────┴──────┴──────╯             
-  _LTX   &trans   &kp RG(N7)    &kp RG(N8)   &kp RG(N9)   &trans                       &trans         &kp C_BRI_DN   &kp C_BRI_UP   &trans   &trans     _RTX
-  _LMX   &trans   &kp RG(N4)    &kp RG(N5)   &kp RG(N6)   &trans                       &kp C_MUTE     &kp C_VOL_DN   &kp C_VOL_UP   &trans   &trans     _RMX
-  _LBX   &trans   &kp RG(N1)    &kp RG(N2)   &kp RG(N3)   &kp LG(LS(UP))         _MBX  &trans         &trans         &trans         &trans   &trans     _RBX
+  _LTX   &trans   &kp RG(N7)     &kp RG(N8)   &kp RG(N9)   &trans                       &trans         &kp C_BRI_DN   &kp C_BRI_UP   &trans   &trans     _RTX
+  _LMX   &trans   &kp RG(N4)     &kp RG(N5)   &kp RG(N6)   &trans                       &kp C_MUTE     &kp C_VOL_DN   &kp C_VOL_UP   &trans   &trans     _RMX
+  _LBX   &trans   &kp LA(RG(N1)) &kp RG(N2)   &kp RG(N3)   &kp LG(LS(UP))         _MBX  &trans         &trans         &trans         &trans   &trans     _RBX
                                 _LHX         &trans       &trans   &trans   &kp C_PP   &kp C_PREV     &kp C_NEXT     _RHX                                      
       >;
     };
