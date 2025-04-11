@@ -91,7 +91,7 @@
     swapper_2: swapper_2 {
       compatible = "zmk,behavior-tri-state";
       #binding-cells = <0>;
-          bindings = <&kt LMETA>, <&kp GRAVE>, <&kt LMETA>;
+        bindings = <&kt LMETA>, <&kp TILDA>, <&kt LMETA>;
       label = "SWAPPER_2";
 
       ignored-key-positions = <LT2>;
