@@ -38,7 +38,7 @@ layers:
   - {t: ⎵, h: Raise}
   - {t: ⌦, h: Fun}
   Lower:
-  - {t: ' ', type: trans}
+  - Gui+Q
   - {t: ' ', type: trans}
   - ⌥ ~
   - ⌥ ⇥
@@ -116,7 +116,7 @@ layers:
   - F7
   - F8
   - F9
-  - 🖨️
+  - Sft+Gui+2
   - š
   - đ
   - č
